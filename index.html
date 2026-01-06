@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <title>Birthday Book</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<button id="startAudio" style="opacity:0;position:absolute"></button>
+
+<!-- ================= GIFT SCREEN ================= -->
+<section id="gift-screen">
+  <div class="gift-wrapper">
+  <div class="gift-box">
+
+    <div class="gift-lid"></div>
+
+    <div class="gift-body">
+      <div class="ribbon-vertical"></div>
+      <div class="ribbon-horizontal"></div>
+    </div>
+
+  </div>
+
+  <p class="gift-text">Klik kadonya 🎁</p>
+</div>
+
+</section>
+
+<!-- ================= BOOK SECTION ================= -->
+<section id="book-section">
+
+  <div class="book-wrapper">
+    <div class="book">
+
+      <!-- ===== SPREAD 0 : COVER ===== -->
+      <div class="spread active">
+
+        <div class="page right cover-page">
+          <div class="page-content center">
+            <h1>A Little Birthday Book</h1>
+            <p>For someone special 💗</p>
+            <button class="open-book-btn">Open Book</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ===== SPREAD 1 ===== -->
+      <div class="spread">
+
+        <div class="page left">
+          <div class="page-content">
+            <h2>Happy Birthday 🎀</h2>
+
+            <div class="photo-group">
+            <div class="photo">
+            <img src="vina.alo.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="vina.alo2.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+
+
+            <p class="message">
+              happy birtday aloowwww, panjang umur, <br> sehat selalu, sukses terus yaa.
+            </p>
+          </div>
+        </div>
+
+        <div class="page right">
+          <div class="page-content">
+            <h2>Alo 💕</h2>
+
+            <div class="photo-group">
+            <div class="photo">
+            <img src="dwi.alo.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="dwi.alo2.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+
+            <p class="message">
+              Selamat ulang tahun zahhh, Semoga di usia yang <br> baru ini selalu diberi kesehatan, kebahagiaan,<br> dan kelancaran dalam setiap langkah. <br> Semoga hari-harimu dipenuhi  dengan hal-hal baik. <br> Semoga selalu dikelilingi oleh orang-orang <br> yang sayang dan mendukungmu dalam setiap <br> perjalanan hidup. btw sorry alay yak😊😊.
+            </p>
+
+            <button class="next">Next Page →</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ===== SPREAD 2 ===== -->
+      <div class="spread">
+
+        <div class="page left">
+          <div class="page-content">
+            <h2>Still Growing 🌸</h2>
+
+            <div class="photo-group">
+            <div class="photo">
+            <img src="fifa.alo.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="fifa.alo2.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+
+            <p class="message">
+            Heppii besdeyyy alookuu, cintakuu, sayangkuu🎉 <br>I hope your life is always filled with happiness, <br> good health, and endless blessings, I am truly <br> proud of everything you have achieved. Thank you <br> for being a wonderful person and a good friend. <br> Wishing you all the love, success and joy in the <br> world now and always!.
+            </p>
+          </div>
+        </div>
+
+        <div class="page right">
+          <div class="page-content">
+            <h2>Keep Smiling 💖</h2>
+
+           <div class="photo-group">
+            <div class="photo">
+            <img src="hutri.alo.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="hutri.alo2.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+
+            <p class="message">
+            barakallah fii umrik sayangkuu <br> sehat selalu, dalam lindungan Allah SWT <br> lancar rezekinya berkah umurnya <br> miss u syengku.
+            </p>
+
+            <button class="next">Next Page →</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- ===== SPREAD 3 : VIDEO ===== -->
+      <div class="spread">
+
+        <div class="page left">
+          <div class="page-content center">
+            <div class="photo-group">
+            <div class="photo">
+            <img src="grp3.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="grp4.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+            <div class="photo-group">
+            <div class="photo">
+            <img src="grp5.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="grp6.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+            <div class="photo-group">
+            <div class="photo">
+            <img src="grp7.jpg" alt="Kenangan 1">
+            </div>
+            <div class="photo">
+            <img src="grp8.jpg" alt="Kenangan 2">
+            </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="page right">
+          <div class="page-content center">
+            <video id="memoryVideo" controls>
+              <source src="video2.mp4" type="video/mp4">
+            </video>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+
+</section>
+
+<script src="script.js"></script>
+<audio id="bg-music" loop>
+  <source src="gentle-dreamy-piano-loop-1-428861.mp3" type="audio/mp3">
+</audio>
+
+</body>
+</html>
